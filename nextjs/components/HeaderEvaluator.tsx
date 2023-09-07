@@ -21,13 +21,13 @@ const HeaderEvaluator = ({ activeTab }: { activeTab: MenuItem }) => {
         <Group position="apart">
           <Link href="/" style={{ textDecoration: "none" }}>
             <Group>
-              <Text size={mobileWidth === true ? "14px" : "28px"}>🦜🔗</Text>
+              {/* <Text size={mobileWidth === true ? "14px" : "28px"}>🦜🔗</Text> */}
               <Text
                 variant="gradient"
                 gradient={{ from: "blue", to: "#bf2015" }}
                 size={mobileWidth === true ? "14px" : "28px"}
               >
-                Auto-Evaluator
+                AGAI
               </Text>
             </Group>
           </Link>
@@ -51,7 +51,7 @@ const HeaderEvaluator = ({ activeTab }: { activeTab: MenuItem }) => {
             >
               <Text c="black">Playground</Text>
             </Link>
-            <Link
+            {/* <Link
               style={{ textDecoration: "none" }}
               href={
                 "https://github.com/dankolesnikov/evaluator-app/blob/main/README.md"
@@ -59,8 +59,8 @@ const HeaderEvaluator = ({ activeTab }: { activeTab: MenuItem }) => {
               target="_blank"
             >
               <Text c="black">Docs</Text>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               style={{
                 textDecoration: "none",
                 borderBottom:
@@ -69,13 +69,13 @@ const HeaderEvaluator = ({ activeTab }: { activeTab: MenuItem }) => {
               href="/about"
             >
               <Text c="black">About</Text>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href={"https://github.com/dankolesnikov/evaluator-app"}
               target="_blank"
             >
               <Image src={githubIcon} alt="github" width={30} height={30} />
-            </Link>
+            </Link> */}
           </Group>
         </Group>
       </Stack>

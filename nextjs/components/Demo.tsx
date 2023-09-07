@@ -264,26 +264,17 @@ const Demo = ({ form }: { form: Form }) => {
     <Stack>
       <Title order={3}>Get Started</Title>
       <Alert style={alertStyle}>
-        Welcome to the auto-evaluator! This is an app to evaluate the
-        performance of question-answering LLM chains. This demo has pre-loaded
-        two things: (1) a document (the Lex Fridman podcast with Andrej
-        Karpathy) and (2) a "test set" of question-answer pairs for this
-        episode. The aim is to evaluate the performance of various
-        question-answering LLM chain configurations against the test set. You
-        can build any QA chain using the components and score its performance.
+      Welcome to the AGIE AI Evaluator! This is an app to evaluate the performance of question-answering LLM chains. This demo has pre-loaded two things: (1) a document (the Lex Fridman podcast with Andrej Karpathy) and (2) a "test set" of question-answer pairs for this episode. The aim is to evaluate the performance of various question-answering LLM chain configurations against the test set. This can be used to build any QA chain using the components and score its performance.
         <br />
         <br />
         <Text>
-          Choose the question-answering chain configuration (left) and launch an
-          experiment using the button below. For more detail on each setting,
-          see full the documentation{" "}
-          <a
+        Choose the question-answering chain configuration (left) and launch an experiment using the button below
+          {/* <a
             style={{ color: "blue" }}
             href="https://github.com/dankolesnikov/auto-evaluator-app"
           >
             here
-          </a>
-          .
+          </a> */}
         </Text>
       </Alert>
       {!!watchFiles?.length && (
@@ -398,22 +389,17 @@ const Demo = ({ form }: { form: Form }) => {
               <Group position="apart">
                 <Title order={3}>Experiment Results</Title>
                 <Alert style={alertStyle}>
-                  This table shows the each question-answer pair from the test
-                  set along with the model's answer to the question. The app
-                  will score two things: (1) the relevance of the retrieved
-                  documents relative to the question and (2) the similarity of
-                  the LLM generated answer relative to ground truth answer. The
-                  prompts for both can be seen{" "}
-                  <a
+                This table shows the each question-answer pair from the test set along with the model's answer to the question. The app will score two things: (1) the relevance of the retrieved documents relative to the question and (2) the similarity of the LLM generated answer relative to ground truth answer.
+                  {/* <a
                     style={{ color: "blue" }}
                     href="https://github.com/dankolesnikov/auto-evaluator-app/blob/main/api/text_utils.py"
                   >
                     here
-                  </a>{" "}
-                  and can be chosen by the user in the drop-down list "Grading
+                  </a>{" "} */}
+                  {/* and can be chosen by the user in the drop-down list "Grading
                   prompt style". The "Fast" prompt will only have the LLM grader
                   output the score. The other prompts will also produce an
-                  explanation.
+                  explanation. */}
                 </Alert>
                 <Group spacing={0}>
                   <Button
