@@ -27,7 +27,7 @@ const HeaderEvaluator = ({ activeTab }: { activeTab: MenuItem }) => {
                 gradient={{ from: "blue", to: "#bf2015" }}
                 size={mobileWidth === true ? "14px" : "28px"}
               >
-                AGAI
+                AGIE
               </Text>
             </Group>
           </Link>
